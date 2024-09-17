@@ -1,0 +1,17 @@
+{
+  "controllers": [
+    "Sidalex\\TestSwoole\\Controllers"
+  ],
+  "mongoDB": {
+    "host": "mongo",
+    "port": "27017",
+    "db_name": "test",
+    "username": "root",
+    "password": "rootpassword",
+    "connection_count": 20
+  },
+  "CyclicJobs": [
+  ],
+  "StateContainerInitiation": [
+  ]
+}

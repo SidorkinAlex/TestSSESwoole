@@ -1,0 +1,18 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Sidalex\\TestSwoole\\": "src/"
+        }
+    },
+    "require": {
+        "sidalex/swoole-app": "0.2.1",
+        "oittaa/uuid": "^1.10"
+
+    },
+    "config": {
+        "allow-plugins": {
+            "yurunsoft/composer-include-files": true,
+            "yurunsoft/guzzle-swoole": true
+        }
+    }
+}

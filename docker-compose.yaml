@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  swooleTestApp:
+    image: swoole-mongo
+    #    restart: always
+    volumes:
+      - ./:/var/www
+    ports:
+      - '82:9501'
